@@ -3,7 +3,7 @@ import os
 
 def _jupyter_server_extension_paths():
     return [{
-        "module": "my_extension"
+        "module": "jp_ex_py_env"
     }]
 
 def _load_jupyter_server_extension(nbapp):

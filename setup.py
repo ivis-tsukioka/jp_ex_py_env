@@ -1,16 +1,16 @@
 from setuptools import setup
 
 setup(
-    name='my_extension',
+    name='jp_ex_py_env',
     version='0.1',
-    py_modules=['my_extension'],
+    py_modules=['jp_ex_py_env'],
     install_requires=[
         'notebook',
     ],
     data_files=[
         (
             'etc/jupyter/jupyter_notebook_config.d',
-            ['my_extension.json']
+            ['jp_ex_py_env.json']
         ),
     ],
 )
