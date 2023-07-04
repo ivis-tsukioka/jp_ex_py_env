@@ -1,3 +1,4 @@
+import os
 from notebook.base.handlers import APIHandler
 from tornado import web
 
